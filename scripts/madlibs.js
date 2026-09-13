@@ -8,10 +8,16 @@ let name2 = prompt("Name 2:");
 //let noun = "ball";
 //let verb = "run";
 //let name2 = "Tony";
-console.log("Dear " + name + ",");
-console.log("You are as " + adjective + " as a " + noun + ".");
-console.log("Happy birthday from the generator.");
 
-console.log("Hey " + name + ",");
-console.log("Can you come " + verb + " with " + name2);
-console.log(" to hang out.");
+function makeCard() {
+  console.log("Dear " + name + ",");
+  console.log("You are as " + adjective + " as a " + noun + ".");
+  console.log("Happy birthday from the generator.");
+  //card2
+  console.log("Hey " + name + ",");
+  console.log("Can you come " + verb + " with " + name2);
+  console.log(" to hang out.");
+};
+
+makeCard();
+makeCard();
