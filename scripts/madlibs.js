@@ -19,5 +19,6 @@ function makeCard() {
   console.log(" to hang out.");
 };
 
-makeCard();
+//makeCard();
+name = prompt("A name");
 makeCard();
